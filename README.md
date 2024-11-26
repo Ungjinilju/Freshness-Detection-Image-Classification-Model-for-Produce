@@ -42,8 +42,7 @@ Freshness-Detection-Image-Classification-Model-for-Produce/
 - **Grad-CAM Insights:** Highlights the regions of the image that influenced predictions the most.
 - **Performance Metrics:**
   - **Precision:** 93%
-  - **Recall:** XX%
-  - **F1-Score:** XX%
+  - **Loss:** 0.2360
 
 ---
 
