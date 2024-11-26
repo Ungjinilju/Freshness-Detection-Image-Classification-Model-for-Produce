@@ -38,10 +38,10 @@ Freshness-Detection-Image-Classification-Model-for-Produce/
 ---
 
 ## 📊 **Results**
-- **Model Accuracy:** XX% on the validation dataset
+- **Model Accuracy:** 93% on the validation dataset
 - **Grad-CAM Insights:** Highlights the regions of the image that influenced predictions the most.
 - **Performance Metrics:**
-  - **Precision:** XX%
+  - **Precision:** 93%
   - **Recall:** XX%
   - **F1-Score:** XX%
 
