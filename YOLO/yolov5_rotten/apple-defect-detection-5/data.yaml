@@ -1,0 +1,12 @@
+names:
+- defect
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: apple-defect-detection-zv8br
+  url: https://universe.roboflow.com/apple-defects-detection/apple-defect-detection-zv8br/dataset/5
+  version: 5
+  workspace: apple-defects-detection
+test: ../test/images
+train: apple-defect-detection-5/train/images
+val: apple-defect-detection-5/valid/images
