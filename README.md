@@ -12,31 +12,6 @@ This repository contains an image classification model designed to assess the fr
 - Modular structure for easy experimentation and model updates.
 - Incorporates the [YOLOv5](https://github.com/ultralytics/yolov5) object detection model to identify produce.
 
-
----
-
-## 📂 **Project Structure**
-```plaintext
-Freshness-Detection-Image-Classification-Model-for-Produce/
-├── Code/
-│   ├── Data_Preprocessing/
-│   │   └── data_augmentation.py        # Scripts for augmenting the dataset
-│   ├── Models/
-│   │   ├── train_model.py              # Main script for model training
-│   │   └── evaluate_model.py           # Script for model evaluation
-│   ├── Visualization/
-│   │   └── grad_cam_visualization.py   # Grad-CAM implementation
-│   └── Step3/
-│       └── 3. Calculate_Total_Rotten_Ratio.ipynb  # Analysis notebook
-├── Final_Model/
-│   └── [Model Checkpoints and Weights] # Model files (not included in repo due to size)
-├── Data/
-│   ├── fresh/                          # Fresh produce images
-│   ├── rotten/                         # Rotten produce images
-│   └── dataset_split/                  # Train, validation, test split
-└── README.md                           # Project documentation
-```
-
 ---
 
 ## 📊 **Results**
@@ -45,6 +20,21 @@ Freshness-Detection-Image-Classification-Model-for-Produce/
 - **Performance Metrics:**
   - **Precision:** 93%
   - **Loss:** 0.2360
+ 
+---
+
+## 📝 **Steps Overview**
+
+### Step 1: Freshness Classification (2 Classes)
+- Classifies apples into fresh and rotten categories.
+- Uses a binary classification model trained on apple images.
+### Step 2: Multi-class Classification
+- **Step 2-1**: Classifies 6 types of produce (e.g., apples, oranges, bananas, etc.) as either fresh or rotten (2 classes per produce type).
+- **Step 2-2**: Classifies 9 types of produce (e.g., apples, oranges, bananas, etc.) into 18 classes (fresh or rotten for each type of produce).
+### Step 3: YOLO-based Rotten Area Detection
+- Uses YOLOv5 for detecting and calculating the rotten area on an apple.
+- Calculates the percentage of the rotten area compared to the total apple area.
+- Divides this percentage into 10 classes to assess the degree of rottenness.
 
 ---
 
