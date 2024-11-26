@@ -51,6 +51,12 @@ Contributions are always welcome! Whether it's fixing bugs, improving documentat
 
 ---
 
+## 📜 **License**
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
 ## 📧 **Contact**
 If you have questions, feedback, or suggestions, feel free to reach out:
 
