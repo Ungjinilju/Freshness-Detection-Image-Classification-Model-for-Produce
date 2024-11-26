@@ -33,3 +33,37 @@ Freshness-Detection-Image-Classification-Model-for-Produce/
 │   ├── rotten/                         # Rotten produce images
 │   └── dataset_split/                  # Train, validation, test split
 └── README.md                           # Project documentation
+
+
+---
+
+## 📊 **Results**
+- **Model Accuracy:** XX% on the validation dataset
+- **Grad-CAM Insights:** Highlights the regions of the image that influenced predictions the most.
+- **Performance Metrics:**
+  - **Precision:** XX%
+  - **Recall:** XX%
+  - **F1-Score:** XX%
+
+---
+
+## 🤝 **Contributing**
+Contributions are always welcome! Whether it's fixing bugs, improving documentation, or suggesting new features, feel free to:
+
+---
+
+## 📧 **Contact**
+If you have questions, feedback, or suggestions, feel free to reach out:
+
+Email: yeohuiju03@gmail.com
+GitHub: Ungjinilju
+
+---
+
+## 🌟 **Acknowledgments**
+
+- Thanks to all contributors and collaborators who supported this project.
+- This project leverages tools and frameworks such as:
+  - **TensorFlow** for deep learning models
+  - **Keras** for building and training models
+  - **OpenCV** for image processing
