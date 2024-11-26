@@ -10,6 +10,8 @@ This repository contains an image classification model designed to assess the fr
 - Supports custom datasets with automatic data preprocessing.
 - Includes Grad-CAM visualization for interpreting model predictions.
 - Modular structure for easy experimentation and model updates.
+- Incorporates the [YOLOv5](https://github.com/ultralytics/yolov5) object detection model to identify produce.
+
 
 ---
 
@@ -60,8 +62,8 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## 📧 **Contact**
 If you have questions, feedback, or suggestions, feel free to reach out:
 
-Email: yeohuiju03@gmail.com
-GitHub: Ungjinilju
+- **Email:** yeohuiju03@gmail.com  
+- **GitHub:** [Ungjinilju](https://github.com/Ungjinilju)
 
 ---
 
@@ -72,3 +74,4 @@ GitHub: Ungjinilju
   - **TensorFlow** for deep learning models
   - **Keras** for building and training models
   - **OpenCV** for image processing
+  - **YOLOv5** for object detection ([Repository link](https://github.com/ultralytics/yolov5))
