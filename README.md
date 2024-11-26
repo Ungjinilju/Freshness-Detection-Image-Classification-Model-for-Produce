@@ -33,7 +33,7 @@ Freshness-Detection-Image-Classification-Model-for-Produce/
 │   ├── rotten/                         # Rotten produce images
 │   └── dataset_split/                  # Train, validation, test split
 └── README.md                           # Project documentation
-
+```
 
 ---
 
